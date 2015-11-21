@@ -2,7 +2,7 @@
 
 A collection of solutions to the Project Euler problems.
 
-### Project Euler problems
+### Project Euler problems solutions
 
 
 * 001 - [pe001.py](https://github.com/Arvik/project-euler/blob/master/pe001.py) 
