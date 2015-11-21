@@ -9,7 +9,7 @@ def p2_fibonacci(n) :
 
 def p2_lessthan(value=0) : 
     """"
-    Returns a sum of fibonacci number which do not exceed given threshold
+    Returns a sum of fibonacci number which do not exceed a given threshold
     """
     res = 0
     for i in p2_fibonacci(10000) : 
