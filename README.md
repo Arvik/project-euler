@@ -18,7 +18,7 @@ A collection of solutions to the Project Euler problems.
 * 011 - [pe011.py](https://github.com/Arvik/project-euler/blob/master/pe011.py)
 * 012 - [pe012.py](https://github.com/Arvik/project-euler/blob/master/pe012.py)
 * 041 - [pe041.py](https://github.com/Arvik/project-euler/blob/master/pe041.py)
-* 081 - [pe041.py](https://github.com/Arvik/project-euler/blob/master/pe081.py)
+* 081 - [pe081.py](https://github.com/Arvik/project-euler/blob/master/pe081.py)
 * 161 - [pe161.py](https://github.com/Arvik/project-euler/blob/master/pe161.py)
 
 ### Contact
