@@ -1,19 +1,17 @@
+"""
+Problem 7:
 
-def isPrime(n):
-    for i in range(2, n // 2+1) :
-        if n % i == 0 : return False
-    return True
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
-def primeSeq(count = 1) :
-    n = 1
-    cnt = 0
-    while True : 
-        n+=1
-        if (isPrime(n)) : 
-            yield n
-            cnt +=1
-        if (cnt >= count ) : return
-        
-if __name__ == '__main__':
-        print(list(primeSeq(10001))[-1])
-    
+What is the 10 001st prime number?
+"""
+
+from prime import primeSeq
+from _datetime import datetime
+
+start = datetime.now()
+l = (p for i, p in enumerate(primeSeq()) if i == 10000)
+print("Result:", next(l))
+finish = datetime.now()
+
+print("Elapsed time: ", finish - start)
