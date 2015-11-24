@@ -43,4 +43,4 @@ for x in range(size) :
             if sm > mx : 
                 mx = sm
                 coords = [x, y]
-print(mx, ":", coords)
+print(mx)

@@ -63,7 +63,7 @@ for k in ndict:
             if len(sq) == 6 and str(sq[0])[:2] == str(sq[-1])[2:]:
                 found = sq
     if found :
-        print("Found: %s, sum = %d" % (found,sum(found)))
+        print(sum(found))
         break
 
                 

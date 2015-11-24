@@ -1,5 +1,8 @@
 from prime import primeSeq
 
-ps = primeSeq(lambda a,b : b >= 2000000)
-
-print(sum(ps))
+#142913828922
+ps = 0
+for p in primeSeq():
+    if p >= 2000000: break
+    ps += p
+print(ps)
