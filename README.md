@@ -2,8 +2,15 @@
 
 A collection of solutions to the Project Euler problems.
 
-* 001 - [pe001.py](https://github.com/Arvik/project-euler/blob/master/pe001.py) 
-* 002 - [pe002.py](https://github.com/Arvik/project-euler/blob/master/pe002.py)
+|Problems solved|
+|---------------|
+|[001](https://github.com/Arvik/project-euler/blob/master/pe001.py)|[002](https://github.com/Arvik/project-euler/blob/master/pe002.py)|
+
+|aaaa|aaaa|
+|---------|
+|bbbb|bbbb|
+
+
 * 003 - [pe003.py](https://github.com/Arvik/project-euler/blob/master/pe003.py) 
 * 004 - [pe004.py](https://github.com/Arvik/project-euler/blob/master/pe004.py) 
 * 005 - [pe005.py](https://github.com/Arvik/project-euler/blob/master/pe005.py) 
@@ -20,6 +27,7 @@ A collection of solutions to the Project Euler problems.
 * 081 - [pe081.py](https://github.com/Arvik/project-euler/blob/master/pe081.py)
 * 099 - [pe099.py](https://github.com/Arvik/project-euler/blob/master/pe099.py)
 * 161 - [pe161.py](https://github.com/Arvik/project-euler/blob/master/pe161.py)
+* 201 - [pe201.py](https://github.com/Arvik/project-euler/blob/master/pe201.py)
 
 ### Contact
 
