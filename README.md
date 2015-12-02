@@ -6,9 +6,9 @@ A collection of solutions to the Project Euler problems.
 |---------------|
 |[001](https://github.com/Arvik/project-euler/blob/master/pe001.py)|[002](https://github.com/Arvik/project-euler/blob/master/pe002.py)|
 
-|aaaa|aaaa|
-|---------|
-|bbbb|bbbb|
+| aaaa | aaaa |
+| ---- | ---- |
+| bbbb | bbbb |
 
 
 * 003 - [pe003.py](https://github.com/Arvik/project-euler/blob/master/pe003.py) 
