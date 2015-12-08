@@ -1,7 +1,8 @@
 ### Project Euler problems solutions
 
 A collection of solutions to the Project Euler problems.
-  a  |  b  |  c  |  d  |  e   
+
+     |     |     |     |   
 -----|-----|-----|-----|-----
  001 | 002 | 003 | 004 | 005 
  006 | 008 | 009 | 010 | 011 
