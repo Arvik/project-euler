@@ -6,7 +6,7 @@ Find the minimal path sum, in p081_matrix.txt file from the top left to the bott
 w = h = 80
 
 mtx = []
-f = open('problems/p081_matrix.txt')
+f = open('../data/p081_matrix.txt')
 mtx = [list(map(int, line[:-1].rsplit(','))) for line in f]
 
 def memoize(f):

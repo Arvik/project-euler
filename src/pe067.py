@@ -1,9 +1,7 @@
 tr = []
-with open('problems/p067_triangle.txt') as f:
+with open('../data/p067_triangle.txt') as f:
     str = f.read().replace('\n',' ')
     tr = list(map(int, str[:-1].rsplit(' ')))
-
-print(tr)
 
 def smn(n):
     """The sum of the first n natural numbers"""
@@ -19,8 +17,8 @@ mem = {}  # memoization cache
 
 def find_max(lvl=0, pos=0):
     z = mem.get((lvl, pos), None)
-#     if z is not None:
-#         return z
+    if z is not None:
+        return z
     sm = tr[smn(lvl) + pos]
     if lvl == mxl - 1 :
         mem[(lvl, pos)] = sm 
