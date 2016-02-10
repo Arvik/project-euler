@@ -11,13 +11,10 @@ def isDivisible(x, n=20):
         if x % i != 0: return False
     return True
 
-def genCandidates(base = 20):
+def genCandidates(base=20):
     cnt = 1
     while True:
         yield base * cnt
-        cnt +=1
+        cnt += 1
 
-def find():
-    return next((i for i in genCandidates() if isDivisible(i)))
-    
-print(find())
+print(next((i for i in genCandidates() if isDivisible(i))))  # 232792560
