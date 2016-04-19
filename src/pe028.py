@@ -1,8 +1,7 @@
-levels = 999 # 1001 -3
+levels = 1001
 
-x = 1
-sum = x
-for i in range(2,levels+3, 2) :
+x,sum = 1,1
+for i in range(2,1001, 2) :
     for ii in range(4):
         x+=i
         sum += x 
